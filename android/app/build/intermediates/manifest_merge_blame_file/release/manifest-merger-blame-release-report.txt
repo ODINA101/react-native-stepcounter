@@ -1,0 +1,117 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.stepcounter"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:5:5-81
+12-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:6:5-80
+13-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:6:22-77
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->[:react-native-google-fit] /Users/odin/Desktop/stepcounter/node_modules/react-native-google-fit/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-79
+14-->[:react-native-google-fit] /Users/odin/Desktop/stepcounter/node_modules/react-native-google-fit/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:22-76
+15
+16    <application
+16-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:7:5-26:19
+17        android:name="com.stepcounter.MainApplication"
+17-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:8:7-38
+18        android:allowBackup="false"
+18-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:12:7-34
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.2.0] /private/var/root/.gradle/caches/transforms-2/files-2.1/1667af20f7c5fbd17b27fd9fd70bfb91/core-1.2.0/AndroidManifest.xml:24:18-86
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:10:7-41
+21        android:label="@string/app_name"
+21-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:9:7-39
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:11:7-52
+23        android:theme="@style/AppTheme" >
+23-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:13:7-38
+24        <activity
+24-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:14:7-24:18
+25            android:name="com.stepcounter.MainActivity"
+25-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:15:9-37
+26            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+26-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:17:9-86
+27            android:label="@string/app_name"
+27-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:16:9-41
+28            android:launchMode="singleTask"
+28-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:18:9-40
+29            android:windowSoftInputMode="adjustResize" >
+29-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:19:9-51
+30            <intent-filter>
+30-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:20:9-23:25
+31                <action android:name="android.intent.action.MAIN" />
+31-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:21:13-65
+31-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:21:21-62
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:22:13-73
+33-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:22:23-70
+34            </intent-filter>
+35        </activity>
+36        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+36-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:25:7-84
+36-->/Users/odin/Desktop/stepcounter/android/app/src/main/AndroidManifest.xml:25:17-81
+37        <activity
+37-->[com.google.android.gms:play-services-auth:18.1.0] /private/var/root/.gradle/caches/transforms-2/files-2.1/6a300d6b98ca8de8170697ae562770a8/play-services-auth-18.1.0/AndroidManifest.xml:23:9-27:75
+38            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+38-->[com.google.android.gms:play-services-auth:18.1.0] /private/var/root/.gradle/caches/transforms-2/files-2.1/6a300d6b98ca8de8170697ae562770a8/play-services-auth-18.1.0/AndroidManifest.xml:24:13-93
+39            android:excludeFromRecents="true"
+39-->[com.google.android.gms:play-services-auth:18.1.0] /private/var/root/.gradle/caches/transforms-2/files-2.1/6a300d6b98ca8de8170697ae562770a8/play-services-auth-18.1.0/AndroidManifest.xml:25:13-46
+40            android:exported="false"
+40-->[com.google.android.gms:play-services-auth:18.1.0] /private/var/root/.gradle/caches/transforms-2/files-2.1/6a300d6b98ca8de8170697ae562770a8/play-services-auth-18.1.0/AndroidManifest.xml:26:13-37
+41            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+41-->[com.google.android.gms:play-services-auth:18.1.0] /private/var/root/.gradle/caches/transforms-2/files-2.1/6a300d6b98ca8de8170697ae562770a8/play-services-auth-18.1.0/AndroidManifest.xml:27:13-72
+42        <!--
+43            Service handling Google Sign-In user revocation. For apps that do not integrate with
+44            Google Sign-In, this service will never be started.
+45        -->
+46        <service
+46-->[com.google.android.gms:play-services-auth:18.1.0] /private/var/root/.gradle/caches/transforms-2/files-2.1/6a300d6b98ca8de8170697ae562770a8/play-services-auth-18.1.0/AndroidManifest.xml:33:9-37:51
+47            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+47-->[com.google.android.gms:play-services-auth:18.1.0] /private/var/root/.gradle/caches/transforms-2/files-2.1/6a300d6b98ca8de8170697ae562770a8/play-services-auth-18.1.0/AndroidManifest.xml:34:13-89
+48            android:exported="true"
+48-->[com.google.android.gms:play-services-auth:18.1.0] /private/var/root/.gradle/caches/transforms-2/files-2.1/6a300d6b98ca8de8170697ae562770a8/play-services-auth-18.1.0/AndroidManifest.xml:35:13-36
+49            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+49-->[com.google.android.gms:play-services-auth:18.1.0] /private/var/root/.gradle/caches/transforms-2/files-2.1/6a300d6b98ca8de8170697ae562770a8/play-services-auth-18.1.0/AndroidManifest.xml:36:13-107
+50            android:visibleToInstantApps="true" />
+50-->[com.google.android.gms:play-services-auth:18.1.0] /private/var/root/.gradle/caches/transforms-2/files-2.1/6a300d6b98ca8de8170697ae562770a8/play-services-auth-18.1.0/AndroidManifest.xml:37:13-48
+51
+52        <meta-data
+52-->[com.google.android.gms:play-services-fitness:19.0.0] /private/var/root/.gradle/caches/transforms-2/files-2.1/90bb6363b5019bf58e1e181ee5631b71/play-services-fitness-19.0.0/AndroidManifest.xml:23:9-25:38
+53            android:name="com.google.gms.fitness.sdk.version"
+53-->[com.google.android.gms:play-services-fitness:19.0.0] /private/var/root/.gradle/caches/transforms-2/files-2.1/90bb6363b5019bf58e1e181ee5631b71/play-services-fitness-19.0.0/AndroidManifest.xml:24:13-62
+54            android:value="19.0.0" />
+54-->[com.google.android.gms:play-services-fitness:19.0.0] /private/var/root/.gradle/caches/transforms-2/files-2.1/90bb6363b5019bf58e1e181ee5631b71/play-services-fitness-19.0.0/AndroidManifest.xml:25:13-35
+55
+56        <activity
+56-->[com.google.android.gms:play-services-base:17.4.0] /private/var/root/.gradle/caches/transforms-2/files-2.1/944ff69172bc83cd8ca642dc42463a10/play-services-base-17.4.0/AndroidManifest.xml:23:9-26:75
+57            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+57-->[com.google.android.gms:play-services-base:17.4.0] /private/var/root/.gradle/caches/transforms-2/files-2.1/944ff69172bc83cd8ca642dc42463a10/play-services-base-17.4.0/AndroidManifest.xml:24:13-79
+58            android:exported="false"
+58-->[com.google.android.gms:play-services-base:17.4.0] /private/var/root/.gradle/caches/transforms-2/files-2.1/944ff69172bc83cd8ca642dc42463a10/play-services-base-17.4.0/AndroidManifest.xml:25:13-37
+59            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+59-->[com.google.android.gms:play-services-base:17.4.0] /private/var/root/.gradle/caches/transforms-2/files-2.1/944ff69172bc83cd8ca642dc42463a10/play-services-base-17.4.0/AndroidManifest.xml:26:13-72
+60
+61        <meta-data
+61-->[com.google.android.gms:play-services-basement:17.4.0] /private/var/root/.gradle/caches/transforms-2/files-2.1/a0880a6395dd6bce5c8495e3fb32576c/jetified-play-services-basement-17.4.0/AndroidManifest.xml:23:9-25:69
+62            android:name="com.google.android.gms.version"
+62-->[com.google.android.gms:play-services-basement:17.4.0] /private/var/root/.gradle/caches/transforms-2/files-2.1/a0880a6395dd6bce5c8495e3fb32576c/jetified-play-services-basement-17.4.0/AndroidManifest.xml:24:13-58
+63            android:value="@integer/google_play_services_version" />
+63-->[com.google.android.gms:play-services-basement:17.4.0] /private/var/root/.gradle/caches/transforms-2/files-2.1/a0880a6395dd6bce5c8495e3fb32576c/jetified-play-services-basement-17.4.0/AndroidManifest.xml:25:13-66
+64    </application>
+65
+66</manifest>
